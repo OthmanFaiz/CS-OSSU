@@ -1,4 +1,7 @@
-listA = [1, 4, 3, 0]
-listB = ['x', 'z', 't', 'q']
+animals = { 'a': ['aardvark'], 'b': ['baboon'], 'c': ['coati']}
 
-print(listA.insert(0, 100))
+animals['d'] = ['donkey']
+animals['d'].append('dog')
+animals['d'].append('dingo')
+
+print(animals.values())
